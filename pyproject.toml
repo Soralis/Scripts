@@ -1,0 +1,18 @@
+[project]
+name = "scripts"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aqdefreader>=1.2.0",
+    "matplotlib>=3.10.0",
+    "pandas>=2.2.3",
+    "scipy>=1.14.1",
+    "setuptools>=75.6.0",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "ipykernel>=6.29.5",
+]
